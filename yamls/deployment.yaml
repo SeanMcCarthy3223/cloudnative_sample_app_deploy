@@ -19,7 +19,7 @@ spec:
       containers:
       - name: "cloudnativesampleapp"
         # Replace the image and tag accordingly
-        image: "ibmcase/greeting:1"
+        image: "seanmccarthy3223/cloudnative_sample_app:latest"
         imagePullPolicy: IfNotPresent
         readinessProbe:
           httpGet:
